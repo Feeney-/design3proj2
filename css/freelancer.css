@@ -1,0 +1,52 @@
+#wrapper{
+    position: absolute;
+}
+
+.child{
+    position: absolute;
+    background-color: #FFFFFF;
+}
+
+.img {
+    position: fixed;
+    margin: 9px;
+    margin-right: 2px ;
+    }
+.img:hover {     
+
+    z-index: 1;
+    
+}
+        #nav {
+    float: right;
+    height: 103%;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(#00FF99,#00CCFF);
+   }
+
+       #nav p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom:0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   }
+      .white {
+    width: 100%;
+    
+   }
+
+   #nav p:hover {
+    color: #000000;
+    text-decoration: line-through;
+    background-color: #ffffff;
+   }
+
+   #nav img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+   }
